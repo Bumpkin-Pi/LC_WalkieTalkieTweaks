@@ -13,6 +13,10 @@ Add actuall config. At present its fixed at a deplition value of 400, which is a
 2. Download LC_WalkieTalkieTweaks.dll (from releases).
 3. Put it into `[STEAM FOLDER]/steamapps/common/Lethal Company/BepInEx/plugins`
 
+### In the case of r2modman or other mod loaders:
+1. Download LC_WalkieTalkieTweaks
+2. Place inside the `[MOD LOADER GAME INSTANCE]/BepInEx/plugins` folder
+
 
 ## Compile:
 1. Dont
