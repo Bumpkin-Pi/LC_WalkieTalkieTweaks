@@ -10,7 +10,7 @@ Add actuall config. At present its fixed at a deplition value of 400, which is a
 
 ## Install instructions:
 1. Have BeInEx installed.
-2. Download Assembly-CSharp.dll (from releases, or project, doesnt matter).
+2. Download LC_WalkieTalkieTweaks.dll (from releases).
 3. Put it into `[STEAM FOLDER]/steamapps/common/Lethal Company/BepInEx/plugins`
 
 
