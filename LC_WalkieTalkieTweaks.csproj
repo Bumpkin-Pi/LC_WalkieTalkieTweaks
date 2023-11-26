@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>LC_WalkieTalkieTweaks</AssemblyName>
-    <Description>My first plugin</Description>
+    <Description>Plugin to reduce (or increase) the battery life of Walkie Talkies in Lethal Company.</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
@@ -17,24 +17,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>~/.local/share/Steam/steamapps/common/Lethal\ Company/BepInEx/core/0Harmony.dll</HintPath>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>libs/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>~/.local/share/Steam/steamapps/common/Lethal\ Company/BepInEx/core/BepInEx.dll</HintPath>
+      <HintPath>lib/BepInEx.dll</HintPath>
     </Reference>
-    <Reference Include="System"/>
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Xml"/>
+    <Reference Include="0Harmony">
+      <HintPath>lib/0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>~/.local/share/Steam/steamapps/common/Lethal\ Company/Lethal Company_Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>lib/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>~/.local/share/Steam/steamapps/common/Lethal\ Company/Lethal Company_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>lib/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   
